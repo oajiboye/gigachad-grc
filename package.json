@@ -32,5 +32,10 @@
   },
   "dependencies": {
     "@prisma/client": "^5.22.0"
+  },
+  "overrides": {
+    "broadcast-channel": {
+      "@babel/runtime": "^7.26.10"
+    }
   }
 }
